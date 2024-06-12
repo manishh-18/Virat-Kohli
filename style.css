@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#king{
+    position: absolute;
+    height: 40px;
+    width: 212px;
+    margin-left: 250px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+}
+.cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 380px;
+    width: 280px;
+    border: 1.5px solid orange;
+    border-radius: 20px;
+    overflow: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#card1{
+    z-index: 4;
+}
+#card2{
+    z-index: 3;
+    rotate: -3deg;
+}
+#card3{
+    z-index: 2;
+    rotate: -6deg;
+}
+#card4{
+    z-index: 1;
+    rotate: -9deg;
+}
+#card2:hover{
+    z-index: 5;
+}
+#card3:hover{
+    z-index: 5;
+}
+#card4:hover{
+    z-index: 5;
+}
